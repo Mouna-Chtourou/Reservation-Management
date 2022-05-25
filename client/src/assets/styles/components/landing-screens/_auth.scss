@@ -1,0 +1,144 @@
+/* Auth */
+
+.auth {
+  .showpass {
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: -2.76rem;
+    cursor: pointer;
+  }
+  height: 100%;
+
+  // &.lock-full-bg {
+  // 	background: linear-gradient(to right, transparent, mistyrose);
+  // 	background-size: cover;
+  // }
+  .lock-profile-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+
+  .auth-login-light {
+    margin-top: 30px;
+    background: $white;
+    border-radius: 10%;
+    select {
+      color: $input-placeholder-color;
+    }
+    .input-group {
+      .form-control {
+        &:focus,
+        &:active {
+          border-color: $border-color;
+        }
+      }
+    }
+  }
+  .auth-register-light {
+    margin-top: 5px;
+    background: $white;
+    border-radius: 10%;
+    select {
+      color: $input-placeholder-color;
+    }
+    .input-group {
+      .form-control {
+        &:focus,
+        &:active {
+          border-color: $border-color;
+        }
+      }
+    }
+  }
+  .auth-forgot-light {
+    margin-top: 100px;
+    background: $white;
+    border-radius: 10%;
+    select {
+      color: $input-placeholder-color;
+    }
+    .input-group {
+      .form-control {
+        &:focus,
+        &:active {
+          border-color: $border-color;
+        }
+      }
+    }
+  }
+  .sign-forgot-light {
+    margin-top: 105px;
+    background: $white;
+    border-radius: 10%;
+    select {
+      color: $input-placeholder-color;
+    }
+    .input-group {
+      .form-control {
+        &:focus,
+        &:active {
+          border-color: $border-color;
+        }
+      }
+    }
+  }
+  // .auth-form-transparent {
+  // 	margin-top:20px;
+  // 	background: black;
+  // 	.form-control,
+  // 	.input-group-text {
+  // 		border-color: theme-color(secondary);
+  // 		&:focus,
+  // 		&:active {
+  // 			border-color: theme-color(secondary);
+  // 		}
+  // 	}
+  // 	select {
+  // 		outline-color: theme-color(secondary);
+  // 	}
+  // }
+  &.auth-img-bg {
+    padding: 0;
+    .auth-form-transparent {
+      @media (min-width: 768px) {
+        width: 55%;
+        margin: auto;
+      }
+    }
+  }
+  .brand-logo {
+    margin-bottom: 1rem;
+    img {
+      width: 150px;
+    }
+  }
+  form {
+    .form-group {
+      margin-bottom: 1.5rem;
+      label {
+        font-size: 0.8125rem;
+      }
+      .form-control {
+        background: transparent;
+        border-radius: 0;
+        font-size: 0.9375rem;
+      }
+    }
+    .auth-form-btn {
+      padding: 1rem 3rem;
+      line-height: 1.5;
+      background-color: #31ade1;
+      color: white;
+    }
+    .auth-link {
+      font-size: $default-font-size;
+      &:hover {
+        color: initial;
+      }
+    }
+  }
+}

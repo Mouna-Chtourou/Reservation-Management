@@ -1,0 +1,115 @@
+/* Cards */
+
+.card {
+
+  border: 0;
+  border-radius: 0;
+  .card-body {
+    padding: $card-padding-y $card-padding-x;
+    @media (max-width: 767px) {
+      padding: 2rem 2rem;
+    }
+    + .card-body {
+      padding-top: 1rem;
+    }
+  }
+  .card-padding {
+    padding: 1rem 1rem;
+    @media (max-width: 767px) {
+      padding: 2rem 2rem;
+    }
+    + .card-body {
+      padding-top: 1rem;
+    }
+  }
+  .card-title {
+    color: $black;
+    margin-bottom: 1.625rem;
+    font-family: $type1;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  &.card-rounded {
+    @include border-radius(20px);
+  }
+
+  &.card-img-holder {
+    position: relative;
+    .card-img-absolute {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .card-inverse-#{$color} {
+    @include card-inverse-variant(
+      rgba(theme-color($color), 0.2),
+      theme-color-level($color, 1),
+      theme-color-level($color, 3)
+    );
+  }
+}
+
+/* Cards */
+
+.card-res {
+height: 18rem;
+  border: 0;
+  border-radius: 0;
+  .card-body {
+    padding: $card-padding-y $card-padding-x;
+    @media (max-width: 767px) {
+      padding: 2rem 2rem;
+    }
+    + .card-body {
+      padding-top: 1rem;
+    }
+  }
+  .card-padding {
+    padding: 1rem 1rem;
+    @media (max-width: 767px) {
+      padding: 2rem 2rem;
+    }
+    + .card-body {
+      padding-top: 1rem;
+    }
+  }
+  
+  .card-title {
+    color: $black;
+    margin-bottom: 1.625rem;
+    font-family: $type1;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  &.card-rounded {
+    @include border-radius(20px);
+  }
+
+  &.card-img-holder {
+    position: relative;
+    .card-img-absolute {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .card-inverse-#{$color} {
+    @include card-inverse-variant(
+      rgba(theme-color($color), 0.2),
+      theme-color-level($color, 1),
+      theme-color-level($color, 3)
+    );
+  }
+}
+

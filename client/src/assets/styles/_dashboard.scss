@@ -1,0 +1,45 @@
+/* Dashboard */
+
+.transaparent-tab-border {
+  border-bottom: 1px solid $nav-tabs-border-color;
+}
+.CircularProgressbar {
+  .CircularProgressbar-path {
+    stroke-width: 5px;
+  }
+  .CircularProgressbar-trail {
+    stroke: #eee;
+    stroke-width: 5px;
+  }
+  .CircularProgressbar-background {
+    fill: green;
+  }
+}
+.CircularProgressbar {
+  &.progress-users {
+    .CircularProgressbar-path {
+      stroke: url(#progress-users);
+    }
+  }
+}
+.CircularProgressbar {
+  &.progress-ressources {
+    .CircularProgressbar-path {
+      stroke: url(#progress-ressources);
+    }
+  }
+}
+.CircularProgressbar {
+  &.progress-reservations {
+    .CircularProgressbar-path {
+      stroke: url(#progress-reservations);
+    }
+  }
+}
+.CircularProgressbar {
+  &.progress-salles {
+    .CircularProgressbar-path {
+      stroke: url(#progress-salles);
+    }
+  }
+}
