@@ -1,11 +1,11 @@
 # Projet PFE avec MERN Stack
 ## Application web de gestion de réservation des salles de réunion
 
-## Installation  
+## Requirements 
 * Node.js (v14.19.0) https://nodejs.org/en/
 * Mongodb (shell version v3.6.8) https://www.mongodb.com/docs/manual/administration/install-community/
 
-## Run localement
+## Installation
 1. Clone repo
 ```
 $ git clone https://github.com/Mouna-Chtourou/PFE.git
@@ -24,3 +24,12 @@ $ cd client
 $ npm install
 $ npm start
 ```
+4. Create a cluster in mongodb than create a emty database
+
+5. Copy .env.example to .env
+6. Set up database MBD_CONNECT in: /.env
+7. Update those **.env** variable in order to setup the email config:
+    ```
+    $ EMAIL = 
+    $ PASS =
+    ```
