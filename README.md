@@ -1,2 +1,2 @@
-# PFE
-C"est un projet MERN Stack implémenter avec MongoDB, Expressjs, React/Redux et Nodejs.
+## Projet PFE avec MERN Stack
+# Application web de gestion de réservation des salles de réunion
