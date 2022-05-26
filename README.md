@@ -2,9 +2,8 @@
 ## Application web de gestion de réservation des salles de réunion
 
 ## Installation  
-###### il faut installer :
-Node.js (v14.19.0) https://nodejs.org/en/
-Mongodb (shell version v3.6.8) https://www.mongodb.com/docs/manual/administration/install-community/
+* Node.js (v14.19.0) https://nodejs.org/en/
+* Mongodb (shell version v3.6.8) https://www.mongodb.com/docs/manual/administration/install-community/
 
 ## Run localement
 1. Clone repo
