@@ -11,11 +11,16 @@
 $ git clone https://github.com/Mouna-Chtourou/PFE.git
 $ cd PFE-main
 ```
-3. Run Backend
+2. Run Backend
 ```
 $ cd server
 $ npm install
 $ nodemon index.js
 ```
 
-4. Run Frontend
+3. Run Frontend
+```
+$ cd client
+$ npm install
+$ npm start
+```
