@@ -1,1 +1,26 @@
-# PFE
+# Projet PFE avec MERN Stack
+## Application web de gestion de réservation des salles de réunion
+
+## Installation  
+* Node.js (v14.19.0) https://nodejs.org/en/
+* Mongodb (shell version v3.6.8) https://www.mongodb.com/docs/manual/administration/install-community/
+
+## Run localement
+1. Clone repo
+```
+$ git clone https://github.com/Mouna-Chtourou/PFE.git
+$ cd PFE-main
+```
+2. Run Backend
+```
+$ cd server
+$ npm install
+$ nodemon index.js
+```
+
+3. Run Frontend
+```
+$ cd client
+$ npm install
+$ npm start
+```
