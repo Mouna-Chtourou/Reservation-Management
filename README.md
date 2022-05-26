@@ -3,6 +3,7 @@
 
 
 ## Run Locally
+1. Clone repo
 ```
 $ git clone https://github.com/Mouna-Chtourou/PFE.git
 ```
