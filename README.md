@@ -15,24 +15,22 @@ $ cd PFE-main
 ```
 $ cd server
 $ npm install
-$ nodemon index.js
 ```
 
 3. Frontend Configuration
 ```
 $ cd client
 $ npm install
-$ npm start
 ```
-4. Create a cluster in mongodb than create a emty database
+4. Create a cluster in mongodb than create an empty database
 
 5. Copy .env.example to .env
 6. Set up database MBD_CONNECT in: /.env with your own cluster configuration and database name
 7. Update those **.env** variable in order to setup the email config:
-    ```
-    $ EMAIL = 
-    $ PASS =
-    ```
+```
+$ EMAIL = 
+$ PASS =
+ ```
 
 8. Run Backend
 ```
