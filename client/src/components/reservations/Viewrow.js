@@ -18,7 +18,7 @@ function Viewrow(props) {
         <i className='mdi mdi-18px mdi-eye-outline'></i>
       </button>
       <Modal show={isOpen} onHide={hideModal}>
-        <Modal.Body>
+      <div className='center-div'>
           <div className=' row d-flex justify-content-center'>
             <div className='mt-3 col-md-11 grid-margin stretch-card'>
               <div className='card'>
@@ -41,14 +41,14 @@ function Viewrow(props) {
               </div>
             </div>
           </div>
-        </Modal.Body>
-        <Modal.Footer>
+        <div classname="model-footer">
           <div className='text-right'>
             <button className='btn btn-light' onClick={hideModal}>
               Fermer
             </button>
           </div>
-        </Modal.Footer>
+        </div>
+        </div>
       </Modal>
     </td>
   )
