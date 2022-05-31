@@ -30,6 +30,7 @@ $ npm install
 ```
 $ EMAIL = 
 $ PASS =
+
  ```
 
 8. Run Backend

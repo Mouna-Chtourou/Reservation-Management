@@ -93,7 +93,7 @@ function AddReservation({
         error.response.data &&
         error.response.data.message &&
         showErrMsg(error.response.data.message)}
-      <Modal.Body className='text-center '>
+        <div className='center-div'>
         <form
           className='forms-sample'
           onSubmit={event => {
@@ -165,7 +165,7 @@ function AddReservation({
             </button>
           </div>
         </form>
-      </Modal.Body>
+        </div>
     </Modal>
   )
 }
