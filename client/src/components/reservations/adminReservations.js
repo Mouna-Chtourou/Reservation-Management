@@ -264,7 +264,7 @@ function Modifier(props) {
           </Modal.Header>
           {msg && showErrMsg(msg)}
           {error && showErrMsg(error)}
-          <Modal.Body className="text-center ">
+          <div className='center-div'>
             <form className="forms-sample" onSubmit={submitHandler}>
               <Form.Group className="row">
                 <label className="col-sm-3 col-form-label">
@@ -358,7 +358,7 @@ function Modifier(props) {
                 </button>
               </div>
             </form>
-          </Modal.Body>
+</div>
         </Modal>
       </div>
     </Layout>
