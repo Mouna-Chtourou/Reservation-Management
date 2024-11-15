@@ -1,5 +1,4 @@
-# Projet PFE avec MERN Stack
-## Web Application for Meeting Room Reservation Management
+# Web Application for Meeting Room Reservation Management
 
 ## Requirements 
 * Node.js (v14.19.0) https://nodejs.org/en/
